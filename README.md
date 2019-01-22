@@ -1,6 +1,6 @@
-# SymconMisc
+# EnergieZaehler
 
-Folgende Module beinhaltet das SymconMisc Repository:
+Folgende Module beinhaltet das EnergieZaehler Repository:
 
 - __Energiezähler Impuls__ ([Dokumentation](EnergiezaehlerImpuls))  
 	Rechnet Zählerwerte in einen Momentanverbrauch um.
