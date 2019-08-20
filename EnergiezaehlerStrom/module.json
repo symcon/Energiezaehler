@@ -10,5 +10,6 @@
 	"parentRequirements": [],
 	"childRequirements": [],
 	"implemented": [],
-	"prefix": "EZS"
+	"prefix": "EZS",
+	"url": "https://github.com/symcon/Energiezaehler/tree/master/EnergiezaehlerStrom"
 }
