@@ -10,5 +10,6 @@
 	"parentRequirements": [],
 	"childRequirements": [],
 	"implemented": [],
-	"prefix": "EZI"
+	"prefix": "EZI",
+	"url": "https://github.com/symcon/Energiezaehler/tree/master/EnergiezaehlerImpuls"
 }
