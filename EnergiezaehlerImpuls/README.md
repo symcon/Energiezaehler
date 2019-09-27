@@ -1,7 +1,7 @@
 # EnergiezählerImpuls
 Das Modul berechnet via eines Stromzählers (z.B. S0-Anschluss) den momentanen und kumlativen Stromverbrauch.
 
-### Inhaltverzeichnis
+### Inhaltsverzeichnis
 
 1. [Funktionsumfang](#1-funktionsumfang)
 2. [Voraussetzungen](#2-voraussetzungen)
@@ -19,17 +19,17 @@ Das Modul berechnet via eines Stromzählers (z.B. S0-Anschluss) den momentanen u
 
 ### 2. Voraussetzungen
 
-- IP-Symcon ab Version 4.x
+- IP-Symcon ab Version 4.2
 
 ### 3. Software-Installation
 
 * Über den Modul Store das Modul Energiezähler installieren.
 * Alternativ über das Modul Control folgende URL hinzufügen:
-´https://github.com/symcon/Energiezaehler`  
+`https://github.com/symcon/Energiezaehler`  
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" ist das 'EnergiezählerImpuls'-Modul unter dem Hersteller '(Sonstige)' aufgeführt.  
+- Unter "Instanz hinzufügen" ist das 'EnergiezählerImpuls'-Modul unter dem Hersteller '(Gerät)' aufgeführt.  
 
 __Konfigurationsseite__:
 
@@ -54,7 +54,7 @@ Last Value (Temporary) | Float   | Hilfsvariable für letzten Wert. Wird zur Dif
 
 ##### Profile:
 
-Es werden keine zusätzlichen Profile hinzugefügt
+Es werden keine zusätzlichen Profile hinzugefügt.
 
 ### 6. WebFront
 
