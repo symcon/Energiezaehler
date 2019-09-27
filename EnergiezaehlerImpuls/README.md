@@ -62,7 +62,7 @@ Es werden keine zusätzlichen Profile hinzugefügt.
 
 ### 7. PHP-Befehlsreferenz
 
-`boolean EZS_Update(integer $InstanzID);`  
+`boolean EZI_Update(integer $InstanzID);`  
 Aktualisiert die berechneten Werte des EnergieZählerImpuls-Moduls mit der InstanzID $InstanzID.  
 Die Funktion liefert keinerlei Rückgabewert.  
 Beispiel:  
