@@ -23,8 +23,8 @@ Das Modul berechnet via eines Stromzählers (z.B. S0-Anschluss) den momentanen u
 
 ### 3. Software-Installation
 
-* Über den Modul Store das Modul Energiezähler installieren.
-* Alternativ über das Modul Control folgende URL hinzufügen:
+* Über den Module Store das Modul Energiezähler installieren.
+* Alternativ über das Module Control folgende URL hinzufügen:
 `https://github.com/symcon/Energiezaehler`  
 
 ### 4. Einrichten der Instanzen in IP-Symcon
