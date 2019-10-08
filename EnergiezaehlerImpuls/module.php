@@ -44,7 +44,6 @@ declare(strict_types=1);
             if ($sourceID != 0) {
                 $this->RegisterReference($sourceID);
             }
-            
         }
 
         /**

@@ -33,7 +33,7 @@ declare(strict_types=1);
             $this->SetTimerInterval('UpdateTimer', $this->ReadPropertyInteger('Interval') * 1000);
 
             $this->RegisterMessage($this->ReadPropertyInteger('SourceVariable'), VM_UPDATE);
-        
+
             //Add references
             foreach ($this->GetReferenceList() as $reference) {
                 $this->UnregisterReference($reference);
@@ -42,7 +42,6 @@ declare(strict_types=1);
             if ($sourceID != 0) {
                 $this->RegisterReference($sourceID);
             }
-            
         }
 
         public function MessageSink($TimeStamp, $SenderID, $Message, $Data)
