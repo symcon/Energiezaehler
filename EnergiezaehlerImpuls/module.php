@@ -35,6 +35,16 @@ declare(strict_types=1);
 
             //Always hide this variable
             IPS_SetHidden($this->GetIDForIdent('LastSourceValue'), true);
+
+            //Add references
+            foreach ($this->GetReferenceList() as $reference) {
+                $this->UnregisterReference($reference);
+            }
+            $sourceID = $this->ReadPropertyInteger('SourceVariable');
+            if ($sourceID != 0) {
+                $this->RegisterReference($sourceID);
+            }
+            
         }
 
         /**
