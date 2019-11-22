@@ -29,7 +29,7 @@ Das Modul berechnet via eines Stromzählers (z.B. S0-Anschluss) den momentanen u
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" ist das 'EnergiezählerImpuls'-Modul unter dem Hersteller '(Gerät)' aufgeführt.  
+- Unter "Instanz hinzufügen" kann das 'EnergiezählerImpuls'-Modul mithilfe der Schnellsuche einfach gefunden werden.  
 
 __Konfigurationsseite__:
 
