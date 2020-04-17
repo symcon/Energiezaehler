@@ -29,7 +29,8 @@ Das Modul berechnet via eines Stromzählers (Strom oder Leistung) den momentanen
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" kann das 'EnergiezählerStrom'-Modul mithilfe der Schnellsuche gefunden werden.  
+- Unter "Instanz hinzufügen" kann das 'EnergiezählerStrom'-Modul mithilfe des Schnellfilters gefunden werden.
+    - Weitere Informationen zum Hinzufügen von Instanzen in der [Dokumentation der Instanzen](https://www.symcon.de/service/dokumentation/konzepte/instanzen/#Instanz_hinzufügen)
 
 __Konfigurationsseite__:
 
