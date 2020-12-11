@@ -32,6 +32,12 @@ declare(strict_types=1);
 
             $this->SetTimerInterval('UpdateTimer', $this->ReadPropertyInteger('Interval') * 1000);
 
+            //Delete all registrations in order to readd them
+            foreach ($this->GetMessageList() as $senderID => $messages) {
+                foreach ($messages as $message) {
+                    $this->UnregisterMessage($senderID, $message);
+                }
+            }
             $this->RegisterMessage($this->ReadPropertyInteger('SourceVariable'), VM_UPDATE);
 
             //Add references
