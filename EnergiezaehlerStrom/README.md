@@ -38,7 +38,7 @@ Name      | Beschreibung
 --------- | ---------------------------------
 Typ       | Ist die Quellvariable vom Typ Leistung (W) oder Strom (A).
 Quelle    | Quellvariable, welche für die Berechnung genutzt werden soll.
-Spannung  | Spannung (Hz), welche beim Umrechnen angenommen werden soll.
+Spannung  | Spannung (V), welche beim Umrechnen angenommen werden soll.
 Intervall | In welchem Sekunden-Intervall automatisch neuberechnet werden soll, sofern sich die Quellvariable nicht geändert haben sollte.
 
 
