@@ -1,14 +1,14 @@
 {
     "id": "{89625B8F-7F45-4D21-9442-9EEC3CAC4A2D}",
-    "name": "EnergiezaehlerImpuls",
+    "name": "Energy Counter Pulse",
     "type": 3,
     "vendor": "",
     "aliases": [
-        "Energiezaehler (Impuls)"
+        "Energy Counter (Pulse)"
     ],
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
     "prefix": "EZI",
-    "url": "https://github.com/symcon/Energiezaehler/tree/master/EnergiezaehlerImpuls"
+    "url": "https://www.symcon.de/en/service/documentation/module-reference/energy-counter/energy-counter-pulse/"
 }

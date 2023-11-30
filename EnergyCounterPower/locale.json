@@ -1,0 +1,15 @@
+{
+    "translations": {
+        "de": {
+            "Type": "Typ",
+            "Source": "Quelle",
+            "Volt": "Volt",
+            "Seconds": "Sekunden",
+            "Power (W)": "Leistung (W)",
+            "Current (A)": "Strom (A)",
+            "Energy Counter (Power)": "Energiezaehler (Strom)",
+            "https://www.symcon.de/en/service/documentation/module-reference/energy-counter/energy-counter-power/": "https://www.symcon.de/de/service/dokumentation/modulreferenz/energiezaehler/energiezaehler-strom/",
+            "Energy Counter Power": "EnergiezaehlerStrom"
+        }
+    }
+}

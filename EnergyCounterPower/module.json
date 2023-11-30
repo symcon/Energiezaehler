@@ -1,14 +1,14 @@
 {
     "id": "{CD053FBF-EFA7-4FA4-A786-B26A9F7E9A41}",
-    "name": "EnergiezaehlerStrom",
+    "name": "Energy Counter Power",
     "type": 3,
     "vendor": "",
     "aliases": [
-        "Energiezaehler (Strom)"
+        "Energy Counter (Power)"
     ],
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
     "prefix": "EZS",
-    "url": "https://github.com/symcon/Energiezaehler/tree/master/EnergiezaehlerStrom"
+    "url": "https://www.symcon.de/en/service/documentation/module-reference/energy-counter/energy-counter-power/"
 }
