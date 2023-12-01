@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class EnergiezaehlerImpuls extends IPSModule
+class EnergyCounterPulse extends IPSModule
 {
     public function Create()
     {

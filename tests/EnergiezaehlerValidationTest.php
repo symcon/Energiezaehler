@@ -8,12 +8,12 @@ class EnergiezaehlerValidationTest extends TestCaseSymconValidation
     {
         $this->validateLibrary(__DIR__ . '/..');
     }
-    public function testValidateEnergiezaehlerImpulsModule(): void
+    public function testValidateEnergyCounterPulseModule(): void
     {
-        $this->validateModule(__DIR__ . '/../EnergiezaehlerImpuls');
+        $this->validateModule(__DIR__ . '/../EnergyCounterPulse');
     }
-    public function testValidateEnergiezaehlerStromModule(): void
+    public function testValidateEnergyCounterPowerModule(): void
     {
-        $this->validateModule(__DIR__ . '/../EnergiezaehlerStrom');
+        $this->validateModule(__DIR__ . '/../EnergyCounterPower');
     }
 }
