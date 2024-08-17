@@ -20,8 +20,8 @@ class EnergyCounterPower extends IPSModule
 
         $this->RegisterTimer('UpdateTimer', 0, 'EZS_Update($_IPS[\'TARGET\']);');
 
-        $this->RegisterVariableFloat('Current', 'Current', 'Watt.3680', 0);
-        $this->RegisterVariableFloat('Counter', 'Counter', 'Electricity', 1);
+        $this->RegisterVariableFloat('Current', $this->Translate('Current'), 'Watt.3680', 0);
+        $this->RegisterVariableFloat('Counter', $this->Translate('Counter'), 'Electricity', 1);
     }
 
     public function ApplyChanges()

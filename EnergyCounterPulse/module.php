@@ -15,9 +15,9 @@ class EnergyCounterPulse extends IPSModule
 
         $this->RegisterTimer('UpdateTimer', 0, 'EZI_Update($_IPS[\'TARGET\']);');
 
-        $this->RegisterVariableFloat('Current', 'Current', 'Watt.3680', 0);
-        $this->RegisterVariableFloat('Counter', 'Counter', 'Electricity', 1);
-        $this->RegisterVariableFloat('LastSourceValue', 'Last Value (Temporary)', '', 2);
+        $this->RegisterVariableFloat('Current', $this->Translate('Current'), 'Watt.3680', 0);
+        $this->RegisterVariableFloat('Counter', $this->Translate('Counter'), 'Electricity', 1);
+        $this->RegisterVariableFloat('LastSourceValue', $this->Translate('Last Value (Temporary)'), '', 2);
     }
 
     public function ApplyChanges()
