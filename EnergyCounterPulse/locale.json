@@ -4,6 +4,8 @@
             "Source": "Quelle",
             "Pulses": "Impulse",
             "Seconds": "Sekunden",
+            "Current": "Leistung",
+            "Counter": "Energie",
             "Energy Counter (Pulse)": "Energiezähler (Impuls)",
             "https://www.symcon.de/en/service/documentation/module-reference/energy-counter/energy-counter-pulse/": "https://www.symcon.de/de/service/dokumentation/modulreferenz/energiezaehler/energiezaehler-impuls/",
             "Energy Counter Pulse": "Energiezaehler Impuls"
