@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class EnergyCounterPower extends IPSModule
+class TESTEnergyCounterPower extends IPSModule
 {
     public function Create()
     {
