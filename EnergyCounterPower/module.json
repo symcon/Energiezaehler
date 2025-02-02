@@ -1,10 +1,10 @@
 {
-    "id": "{CD053FBF-EFA7-4FA4-A786-B26A9F7E9AFF}",
-    "name": "TEST Energy Counter Power",
+    "id": "{CD053FBF-EFA7-4FA4-A786-B26A9F7E9A41}",
+    "name": "Energy Counter Power",
     "type": 3,
     "vendor": "",
     "aliases": [
-        "TEST Energy Counter (Power)"
+        "Energy Counter (Power)"
     ],
     "parentRequirements": [],
     "childRequirements": [],
