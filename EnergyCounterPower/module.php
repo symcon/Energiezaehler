@@ -17,13 +17,14 @@ class TESTEnergyCounterPower extends IPSModule
         $this->RegisterPropertyInteger('SourceVariable', 0);
         $this->RegisterPropertyInteger('Voltage', 230);
         $this->RegisterPropertyInteger('Interval', 60);
+        $this->RegisterPropertyBoolean('Ratchet', false);
 
         $this->RegisterTimer('UpdateTimer', 0, 'EZS_Update($_IPS[\'TARGET\']);');
 
         $this->RegisterVariableFloat('Current', $this->Translate('Current'), 'Watt.3680', 0);
         $this->RegisterVariableFloat('Counter', $this->Translate('Counter'), 'Electricity', 1);
 
-        $this->RegisterVariableBoolean('Ratchet', false);
+        
     }
 
     public function ApplyChanges()
