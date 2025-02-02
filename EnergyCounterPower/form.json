@@ -29,6 +29,12 @@
             "name": "Interval",
             "type": "IntervalBox",
             "caption": "Seconds"
+        },
+        {
+            "name": "Ratchet",
+            "type":"CheckBox",
+            "caption": "Ratchet"
         }
+
     ]
 }
