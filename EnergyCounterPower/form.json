@@ -29,6 +29,11 @@
             "name": "Interval",
             "type": "IntervalBox",
             "caption": "Seconds"
+        },
+        {
+            "name": "Backstop",
+            "type": "CheckBox",
+            "caption": "Backstop"
         }
     ]
 }
