@@ -32,7 +32,7 @@
         },
         {
             "name": "Backstop",
-            "type":"CheckBox",
+            "type": "CheckBox",
             "caption": "Backstop"
         }
 
