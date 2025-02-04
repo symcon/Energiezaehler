@@ -80,8 +80,7 @@ class EnergyCounterPower extends IPSModule
                 //get current value -> if Backstop is active and value is negativ set to 0
                 $backstop = $this->ReadPropertyBoolean("Backstop");
                 $currentValue = GetValue($this->GetIDForIdent('Current'));
-                if($backstop && ($currentValue<0))
-                {
+                if($backstop && ($currentValue < 0)) {
                     $currentValue = 0;
                 }
 
