@@ -17,7 +17,7 @@ class EnergyCounterPower extends IPSModule
         $this->RegisterPropertyInteger('SourceVariable', 0);
         $this->RegisterPropertyInteger('Voltage', 230);
         $this->RegisterPropertyInteger('Interval', 60);
-        $this->RegisterPropertyBoolean('Ratchet', false);
+        $this->RegisterPropertyBoolean('Backstop', false);
 
         $this->RegisterTimer('UpdateTimer', 0, 'EZS_Update($_IPS[\'TARGET\']);');
 
@@ -77,10 +77,10 @@ class EnergyCounterPower extends IPSModule
                 //we use the last updated value to calculate the amount the need to add
                 $timeDiff = time() - IPS_GetVariable($this->GetIDForIdent('Current'))['VariableUpdated'];
 
-                //get current value -> if Ratchet is active and value is negativ set to 0
-                $ratchet = $this->ReadPropertyBoolean("Ratchet");
+                //get current value -> if Backstop is active and value is negativ set to 0
+                $backstop = $this->ReadPropertyBoolean("Backstop");
                 $currentValue = GetValue($this->GetIDForIdent('Current'));
-                if(($ratchet) && ($currentValue<0))
+                if($backstop && ($currentValue<0))
                 {
                     $currentValue = 0;
                 }

@@ -31,9 +31,9 @@
             "caption": "Seconds"
         },
         {
-            "name": "Ratchet",
+            "name": "Backstop",
             "type":"CheckBox",
-            "caption": "Ratchet"
+            "caption": "Backstop"
         }
 
     ]
