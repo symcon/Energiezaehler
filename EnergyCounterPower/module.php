@@ -23,7 +23,6 @@ class EnergyCounterPower extends IPSModule
 
         $this->RegisterVariableFloat('Current', $this->Translate('Current'), 'Watt.3680', 0);
         $this->RegisterVariableFloat('Counter', $this->Translate('Counter'), 'Electricity', 1);
-
         
     }
 
@@ -78,7 +77,7 @@ class EnergyCounterPower extends IPSModule
                 $timeDiff = time() - IPS_GetVariable($this->GetIDForIdent('Current'))['VariableUpdated'];
 
                 //get current value -> if Backstop is active and value is negativ set to 0
-                $backstop = $this->ReadPropertyBoolean("Backstop");
+                $backstop = $this->ReadPropertyBoolean('Backstop');
                 $currentValue = GetValue($this->GetIDForIdent('Current'));
                 if($backstop && ($currentValue < 0)) {
                     $currentValue = 0;
