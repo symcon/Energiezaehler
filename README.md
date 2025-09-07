@@ -6,8 +6,8 @@
 
 Folgende Module beinhaltet das EnergieZaehler Repository:
 
-- __Energiezähler Impuls__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/energiezaehler/energiezaehler-impuls))  
+- __Energiezähler Impuls__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/energiezaehler/energiezaehler-impuls/))  
 	Rechnet Zählerwerte in einen Momentanverbrauch um.
 
-- __Energiezähler Strom__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/energiezaehler/energiezaehler-strom))  
+- __Energiezähler Strom__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/energiezaehler/energiezaehler-strom/))  
 	Rechnet aus Strom/Leistung den momentanen und kumlativen Stromverbrauch.
